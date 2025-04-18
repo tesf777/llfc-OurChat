@@ -23,9 +23,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="OurChat.qrc">
-      <Filter>Resource Files</Filter>
-    </QtRcc>
     <QtUic Include="OurChat.ui">
       <Filter>Form Files</Filter>
     </QtUic>
@@ -35,6 +32,9 @@
     <ClCompile Include="OurChat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <QtRcc Include="rc.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -49,6 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="OurChat.pro" />
+    <None Include="cpp.hint" />
+    <None Include="style\stylesheet.qss">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="RegisterDialog.h">

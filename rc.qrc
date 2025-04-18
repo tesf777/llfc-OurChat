@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/OurChat">
+    <qresource prefix="/new/prefix1">
         <file>res/icon.ico</file>
         <file>res/opening.jpg</file>
     </qresource>

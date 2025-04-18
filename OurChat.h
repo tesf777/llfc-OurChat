@@ -2,6 +2,8 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_OurChat.h"
+#include "LoginDialog.h"
+#include "RegisterDialog.h"
 
 class OurChat : public QMainWindow
 {
@@ -10,8 +12,10 @@ class OurChat : public QMainWindow
 public:
     OurChat(QWidget *parent = nullptr);
     ~OurChat();
-
+public slots:
+    void SlotSwitchReg();
 private:
     Ui::OurChatClass ui;
-    //LoginDialog* _login_dialog;
+    LoginDialog* _login_dialog;
+    RegisterDialog* _register_dialog;
 };

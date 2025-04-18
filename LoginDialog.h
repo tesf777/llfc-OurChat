@@ -13,4 +13,7 @@ public:
 
 private:
 	Ui::LoginDialogClass ui;
+
+signals:
+	void SwitchReg();
 };

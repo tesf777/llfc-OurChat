@@ -85,7 +85,7 @@
   <ItemGroup>
     <ClCompile Include="LoginDialog.cpp" />
     <ClCompile Include="RegisterDialog.cpp" />
-    <QtRcc Include="OurChat.qrc" />
+    <QtRcc Include="rc.qrc" />
     <QtUic Include="LoginDialog.ui" />
     <QtUic Include="OurChat.ui" />
     <QtMoc Include="OurChat.h" />
@@ -94,7 +94,9 @@
     <QtUic Include="RegisterDialog.ui" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cpp.hint" />
     <None Include="OurChat.pro" />
+    <None Include="style\stylesheet.qss" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="RegisterDialog.h" />

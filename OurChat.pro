@@ -14,4 +14,5 @@ UI_DIR += .
 RCC_DIR += .
 RC_ICONS = icon.ico
 DESTDIR = ./bin
+RESOURCES += rc.qrc
 include(OurChat.pri)
