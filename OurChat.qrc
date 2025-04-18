@@ -1,4 +1,6 @@
 <RCC>
-    <qresource prefix="OurChat">
+    <qresource prefix="/OurChat">
+        <file>res/icon.ico</file>
+        <file>res/opening.jpg</file>
     </qresource>
 </RCC>

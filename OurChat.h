@@ -13,4 +13,5 @@ public:
 
 private:
     Ui::OurChatClass ui;
+    //LoginDialog* _login_dialog;
 };
